@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Виртуальные окружения
+.venv/
+venv/
+
+# Тесты и проверка типов
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# База данных (приватные данные — никогда не коммитить)
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Окружение и секреты
+.env
+.env.*
+!.env.example
+
+# IDE и ОС
+.idea/
+.vscode/
+.DS_Store
+*.swp
