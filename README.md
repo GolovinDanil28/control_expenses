@@ -69,10 +69,10 @@ venv/bin/pytest
 
 ## Архитектура и спецификация
 
-Источник истины по поведению и решениям —
-[`openspec/changes/add-expense-tracker-mvp/`](openspec/changes/add-expense-tracker-mvp/):
-`proposal.md` (зачем и что), `design.md` (слои, схема БД, формулы, риски) и
-`specs/` (7 возможностей с приемочными сценариями).
+Поведение продукта описано в [`openspec/specs/`](openspec/specs/) — 7 capabilities
+с приёмочными сценариями. Обоснование и история решений — в архивном change'е
+[`openspec/changes/archive/2026-10-17-add-expense-tracker-mvp/`](openspec/changes/archive/2026-10-17-add-expense-tracker-mvp/):
+`proposal.md` (зачем и что) и `design.md` (слои, схема БД, формулы, риски).
 
 Кратко о слоях (`src/control_expenses/`):
 
@@ -125,6 +125,6 @@ venv/bin/pytest
 «обед 400, такси 300» → 400 ₽ с пометкой про остальные траты, «потратил немного на
 обед» → отказ с причиной «нет суммы».
 
-Актуальный чек-лист — в
-[`openspec/changes/add-expense-tracker-mvp/tasks.md`](openspec/changes/add-expense-tracker-mvp/tasks.md);
-принятые решения — в `design.md` того же change.
+История работ — в `tasks.md` архивного change'а
+[`openspec/changes/archive/2026-10-17-add-expense-tracker-mvp/`](openspec/changes/archive/2026-10-17-add-expense-tracker-mvp/);
+принятые решения — в его `design.md`.
